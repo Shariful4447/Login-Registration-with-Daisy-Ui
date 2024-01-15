@@ -7,7 +7,7 @@ const Registration = () => {
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(name, email, password);
+        console.log(email, name, password);
     }
     return (
         <div className="hero min-h-screen bg-base-200">
